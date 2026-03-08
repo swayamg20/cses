@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Allow these
+!*.cpp
+!*.txt
+!.vscode/
+!.vscode/**
+!.gitignore
+!.md
