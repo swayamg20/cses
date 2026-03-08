@@ -4,7 +4,7 @@
     {
       "label": "C++ Build & Run (with I/O)",
       "type": "shell",
-      "command": "g++ -std=c++17 -O2 -Wall -o ${fileDirname}/${fileBasenameNoExtension} ${file} && ${fileDirname}/${fileBasenameNoExtension} < ${fileDirname}/input.txt > ${fileDirname}/output.txt",
+      "command": "g++ -std=c++17 -O2 -Wall -o ${fileDirname}/${fileBasenameNoExtension} ${file} && ${fileDirname}/${fileBasenameNoExtension} < ${fileDirname}/txt/input.txt > ${fileDirname}/txt/output.txt",
       "group": {
         "kind": "build",
         "isDefault": true
